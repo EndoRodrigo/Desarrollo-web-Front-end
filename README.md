@@ -1,5 +1,3 @@
-# Desarrollo-web-Front-end
-
 # Proyecto Web: Integración de HTML, CSS y JavaScript
 
 _Este proyecto representa la culminación de mi aprendizaje en HTML, CSS y JavaScript, donde he creado un sitio web interactivo que combina diseño atractivo y funcionalidades dinámicas._
