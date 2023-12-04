@@ -1,0 +1,85 @@
+/*Se aplica estilo a todo el contenido del body*/
+body {
+    /*Me permite controlar la posicion de los objetos*/
+    position: relative;
+
+    /*Permite manipular a los objetos hijos*/
+    display: flex;
+
+    /*Centro los objetos sobre x*/
+    align-items: center;
+
+
+    /*Permite controlar el ancho del contenedor*/
+    height: 100vh;
+
+    /*Agrega color al fondo*/
+    background-color: #212121;
+
+}
+
+.content {
+    position: relative;
+    /*Centrar los objetos sobre y*/
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    gap: 40px;
+
+}
+
+.btn {
+    /*Permite controla el ancho del objeto*/
+    width: 8.5em;
+
+    /*Permite controlar el alto del objeto*/
+    height: 2.3em;
+
+    /*Permite controlar el espacio entre los objetos*/
+    margin: 0.5em;
+    background: black;
+    /*Permite agregar color a las letras*/
+    color: white;
+    border: none;
+    /*Permite agregar efecto de curba*/
+    border-radius: 0.625em;
+
+    /*Permite controla el tamaño de la letra*/
+    font-size: 20px;
+
+    /*Agrega efecto de negrilla*/
+    font-weight: bold;
+
+    /*Permite mause cambie de forma*/
+    cursor: pointer;
+    position: relative;
+
+    /*Permite ocultar objetos*/
+    z-index: 1;
+
+    /*Si el contendio de sael del objeto solo muestra una parte*/
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+}
+
+button::after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: 1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
