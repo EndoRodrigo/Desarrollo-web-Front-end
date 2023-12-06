@@ -42,7 +42,9 @@ GitHub para colaboración y código abierto.
 Conoce sobre integración continua y entrega continua (CI/CD).
 12. Mantente Actualizado:
 Sigue blogs, canales de YouTube y redes sociales de desarrollo web.
+
 Recursos en línea:
+
 MDN Web Docs: Documentación web oficial.
 W3Schools: Tutoriales y referencias.
 freeCodeCamp: Plataforma interactiva para aprender desarrollo web.
