@@ -25,7 +25,7 @@ git clone https://github.com/EndoRodrigo/Conocimiento_front_end.git
 _Navega al Directorio del Proyecto_
 
 ```
-cd C:\Users\endor\OneDrive\Documentos\RobotContenido\Parctica_html
+cd C:\Users\Documentos\RobotContenido\Parctica_html
 ```
 
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
